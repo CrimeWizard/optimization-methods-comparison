@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![FastAPI](https://img.shields.io/badge/fastapi-0.116-green)
+
 # Optimizer Comparison on Fashion-MNIST
 
 This project explores the effect of different optimization algorithms on training a Multi-Layer Perceptron (MLP) using the [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist).  
@@ -45,7 +49,7 @@ The experiments are conducted **with and without learning rate decay (LRD)** to 
 | Adam      | 0.8688 |
 
 ### Validation Accuracy Curves
-![No LRD plot](opt_comparison_no_lrd.png)
+![No LRD plot](images/opt_comparison_no_lrd.png)
 
 **Observations:**
 - **SGD**: Smooth, stable convergence, ~87% accuracy.  
@@ -66,7 +70,7 @@ The experiments are conducted **with and without learning rate decay (LRD)** to 
 | Adam      | 0.8590 |
 
 ### Validation Accuracy Curves
-![LRD plot](opt_comparison_with_lrd.png)
+![LRD plot](images/opt_comparison_with_lrd.png)
 
 **Observations:**
 - **SGD**: Slight improvement with decay (~+0.6%).  
@@ -86,8 +90,8 @@ The experiments are conducted **with and without learning rate decay (LRD)** to 
 | Adam      | 0.8688     | 0.8590  | −1.0% |
 
 
-![LRD plot](lrd_vs_no_lrd.png)
-![LRD plot](lrd_delta.png)
+![LRD plot](images/lrd_vs_no_lrd.png)
+![LRD plot](images/lrd_delta.png)
 
 ---
 
