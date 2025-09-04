@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+jupyterlab-env/
+env/
+
+# Logs
+*.log
+
+# Data & models (large binary files)
+*.csv
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files (Linux/Unix)
+*~
