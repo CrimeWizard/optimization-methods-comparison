@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Optimizer Comparison on Fashion-MNIST
 
 This project explores the effect of different optimization algorithms on training a Multi-Layer Perceptron (MLP) using the [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist).  
@@ -106,3 +107,7 @@ The experiments are conducted **with and without learning rate decay (LRD)** to 
 - Extend experiments to deeper CNNs on more realistic Datasets.
 
 
+=======
+# optimization-methods-comparison
+Exploring how different optimizers (SGD, Momentum, RMSProp, Adam) perform on Fashion-MNIST using MLPs, with and without learning rate decay, and deploying the trained model as an API with FastAPI and Docker.
+>>>>>>> e48c7b3904e513cfa3abd8d773293980034332af
